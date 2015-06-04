@@ -278,7 +278,7 @@ public class Notification extends CordovaPlugin {
             public void run() {
                 final EditText promptInput =  new EditText(cordova.getActivity());
                 promptInput.setText(defaultText);
-				promptInput.setBackgroundResource(Color.WHITE);
+				promptInput.setBackgroundColor(Color.WHITE);
 				promptInput.setTextColor(Color.BLACK);
 				promptInput.setHighlightColor(Color.GRAY);
                 AlertDialog.Builder dlg = createDialog(cordova); // new AlertDialog.Builder(cordova.getActivity(), AlertDialog.THEME_DEVICE_DEFAULT_LIGHT);
