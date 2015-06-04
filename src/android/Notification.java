@@ -281,7 +281,7 @@ public class Notification extends CordovaPlugin {
 				promptInput.setBackgroundColor(Color.WHITE);
 				promptInput.setTextColor(Color.BLACK);
 				promptInput.setHighlightColor(Color.GRAY);
-				promptInput.setPadding(10, 10, 10, 10);
+				promptInput.setPadding(20, 20, 20, 20);
                 AlertDialog.Builder dlg = createDialog(cordova); // new AlertDialog.Builder(cordova.getActivity(), AlertDialog.THEME_DEVICE_DEFAULT_LIGHT);
                 dlg.setMessage(message);
                 dlg.setTitle(title);
